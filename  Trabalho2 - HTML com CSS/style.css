@@ -15,8 +15,10 @@
         padding: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         font-family: 'Ubuntu', sans-serif;
+        border-with
 
     }
+
     nav {
         background-color: #a6a5a5;
         color: white;
@@ -26,6 +28,7 @@
         align-items: center;
         font-family: 'Ubuntu', sans-serif;
     }
+    
     .main-image {
         border-radius: 50%;
         overflow: hidden;
@@ -38,13 +41,11 @@
     .image-text {
         flex: 1; /* Ocupa todo o espaço restante no contêiner */
     }
-
     .barra a {
         color: white;
         text-decoration: none;
-        margin: 0 40px;
+        margin: 0 20px; /* Reduced the margin for a more balanced look */
     }
-
     .barra a:first-child {
         margin-left: 0;
     }
